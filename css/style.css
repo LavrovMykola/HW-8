@@ -1,0 +1,61 @@
+/* Завдання 1 */
+
+
+h3:first-child{
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+p:first-child{
+    color: red;
+}
+p:nth-child(7n){
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+ 
+
+/* Завдання 2 */
+
+
+.table{
+    text-align: center;
+    border: 2px dashed grey;
+}
+.table:hover{
+    font-size: 25px;
+    border: 5px solid black;
+}
+.caption{
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+}
+.caption:hover{
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+}
+.tr-first:nth-child(1){
+    color: blue;
+    background-color: darkred;
+    }
+th:first-child{
+    color: chocolate;
+    background-color: aqua;
+}
+tr:nth-child(6){
+    color: blue;
+    background-color: cadetblue;
+}
+tr:nth-child(odd){
+    color: green;
+    background-color: fuchsia;
+}
+tr:nth-child(even){
+    color: yellow;
+    background-color: mediumslateblue;
+}
